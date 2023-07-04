@@ -1,0 +1,37 @@
+:root {
+    /* base */
+    --hue: 239;
+    --rounded-corners: 5px;
+    --font-size: 16px;
+    --font-family: 'Open Sans', sans-serif;
+    --spacing: 10px;
+    --transition-speed: 100ms;
+    --transition-algo: ease-in-out;
+
+    /* computed */
+    --font-color: hsl(var(--hue), 40%, 92%);
+    --primary-color: hsl(var(--hue), 40%, 35%);
+    --background-color: hsl(var(--hue), 10%, 15%);
+}
+
+html, body {
+    background: var(--background-color);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    color: var(--font-color);
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    -webkit-tap-highlight-color: transparent; 
+}
