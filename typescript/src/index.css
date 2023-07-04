@@ -9,9 +9,9 @@
     --transition-algo: ease-in-out;
 
     /* computed */
-    --font-color: hsl(var(--hue), 40%, 92%);
+    --font-color: hsl(var(--hue), 10%, 92%);
     --primary-color: hsl(var(--hue), 40%, 35%);
-    --background-color: hsl(var(--hue), 10%, 15%);
+    --background-color: hsl(var(--hue), 15%, 15%);
 }
 
 html, body {
