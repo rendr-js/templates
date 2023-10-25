@@ -1,5 +1,5 @@
 {
-  "name": "rendrjs-website",
+  "name": "rendrjs-app",
   "version": "0.0.1",
   "scripts": {
     "start": "vite",
@@ -8,11 +8,11 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
-    "eslint": "^8.43.0",
-    "typescript": "^5.1.6",
-    "vite": "^4.3.9"
+    "eslint": "^8.52.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
   },
   "dependencies": {
-    "@rendrjs/core": "^0.1.174"
+    "@rendrjs/core": "^0.1.190"
   }
 }
