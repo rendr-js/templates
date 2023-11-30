@@ -5,16 +5,16 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   return rendr('div', {
-    className: 'App',
+    class: 'App',
     slot: [
       rendr('div', {
         slot: rendr('img', {
-          className: 'logo',
+          class: 'logo',
           src: 'logo.png',
         }),
       }),
       rendr('button', {
-        className: 'btn',
+        class: 'btn',
         slot: `count: ${count}`,
         onclick: () => setCount(c => c + 1),
       }),
