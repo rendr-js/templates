@@ -1,0 +1,20 @@
+.App {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .logo {
+        height: 300px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        color: inherit;
+        border: 1px solid #cecef2;
+        border-radius: 5px;
+        background: inherit;
+        cursor: pointer;
+    }
+}

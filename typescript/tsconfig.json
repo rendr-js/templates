@@ -1,16 +1,8 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
     "strict": true,
-    "outDir": "public/assets",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "declaration": false,
-    "noImplicitAny": false
+    "module": "NodeNext",
   },
   "include": ["src/**/*"]
 }
