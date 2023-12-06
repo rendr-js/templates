@@ -1,19 +1,19 @@
-import { rendr, useState } from '@rendrjs/core';
+import { button, div, img, useState } from '@rendrjs/core';
 import './App.css';
 
 const App = () => {
   const [count, setCount] = useState(0);
 
-  return rendr('div', {
+  return div({
     class: 'App',
     slot: [
-      rendr('div', {
-        slot: rendr('img', {
+      div({
+        slot: img({
           class: 'logo',
           src: 'logo.png',
         }),
       }),
-      rendr('button', {
+      button({
         class: 'btn',
         slot: `count: ${count}`,
         onclick: () => setCount(c => c + 1),
