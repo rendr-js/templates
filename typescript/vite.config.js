@@ -8,4 +8,7 @@ export default defineConfig({
     target: 'esnext',
     modulePreload: { polyfill: false },
   },
+  test: {
+    environment: 'jsdom',
+  },
 });
