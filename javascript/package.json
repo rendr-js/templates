@@ -9,6 +9,6 @@
     "vite": "^5.0.5"
   },
   "dependencies": {
-    "@rendrjs/core": "^0.1.223"
+    "@rendrjs/core": "^0.1.224"
   }
 }
