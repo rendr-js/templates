@@ -1,5 +1,5 @@
-import { mount, rendr } from '@rendrjs/core';
+import { mount } from '@rendrjs/core';
 import App from './App';
 import './index.css';
 
-mount(document.querySelector('#root'), rendr(App));
+mount(document.querySelector('#root'), App);
