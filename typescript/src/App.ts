@@ -10,7 +10,7 @@ const App = () => {
       div({
         slot: img({
           class: 'logo',
-          src: 'logo.png',
+          src: '/r.svg',
         }),
       }),
       button({
