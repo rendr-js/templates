@@ -1,4 +1,4 @@
-import { element, useState } from '@rendrjs/core';
+import { element, text, useState } from '@rendrjs/core';
 import './App.css';
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       }),
       element('button', {
         class: 'btn',
-        slot: `count: ${count}`,
+        slot: text(`count: ${count}`),
         onclick: () => setCount(c => c + 1),
       }),
     ],
